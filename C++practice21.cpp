@@ -1,5 +1,6 @@
 #include <iostream>
 
+//Baekjoon 10871
 using namespace std;
 int main() {
 	int N, X;
@@ -7,7 +8,7 @@ int main() {
 	cin >> N;
 	cin >> X;
 
-	int* A = new int[N]; //N의 크기에 따라 동적할당
+	int* A = new int[N]; //malloc based on N
 	int* B = new int[N];
 	int j = 0;
 
